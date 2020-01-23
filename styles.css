@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    padding: 10px;
+    border: solid 5px red;
+}
+
+body {
+    background-color: yellow;
+}
+
+.tab1 {
+    border: 7px groove blue;
+    font-size: 25px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color:red;
+}
+
+.tab button {
+    background-color:red;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 27.85px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+img{
+    width:600px;
+}
+.tab{
+    display:flex;
+    justify-content:space-between;
+}
+iframe{
+        height:400px;
+        width:400px;
+}
+.cases{
+    border: solid 10px;
+    Justify-content:center;
+    display:flex;
+    line-height:30px;    
+}
+.reasons {
+        font-size:30px;
+        border: dotted 10px;
+}
